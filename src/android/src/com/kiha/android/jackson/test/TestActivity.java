@@ -77,7 +77,7 @@ public class TestActivity extends Activity {
                 }
                 catch (Exception ex) {
                     ex.printStackTrace();
-                    Toast.makeText(TestActivity.this, "Test failed. See logcat.", Toast.LENGTH_LONG);
+                    Toast.makeText(TestActivity.this, "Test failed. See logcat.", Toast.LENGTH_LONG).show();
                 }
                 return true;
             }
